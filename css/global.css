@@ -1,0 +1,40 @@
+
+@font-face{
+	font-family: 'Roboto';
+	src: url('/fonts/Roboto-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Vice';
+	src: url('/fonts/vice.ttf');
+}
+
+
+@font-face{
+	font-family: 'Gotham';
+	src: url('/fonts/Gotham.ttf');
+}
+
+a{
+	font-family: 'Gotham';
+	color: white;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+h2{
+	font-family: 'Roboto';
+	margin: 5px;
+	color: white;
+}
+
+p{
+	font-family: 'Roboto';
+	font-size: 20px;
+	color: white;
+	margin: 0;
+}

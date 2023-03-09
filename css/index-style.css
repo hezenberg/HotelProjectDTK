@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.first-block{
+	background-image: url("/image/main.jpg");
+	background-size: no-repeat;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+.filter-block{
+    height: 100%; width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.greeting-block{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%; padding-right: 20%;
+    padding: 10%;
+}
+
+._second_block{
+    display: flex;
+    flex-direction: column;
+}
+
+

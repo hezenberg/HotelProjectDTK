@@ -1,0 +1,41 @@
+header{
+
+	display: flex;
+	align-items: center;
+}
+
+#logo{
+	font-family: 'Vice';
+	font-size: 2.5em;
+	color: #e14c86;
+	margin: 15px;
+	margin-right: 30px;
+	text-shadow: 0 0 10px red,0 0 20px red,0 0 30px red,0 0 40px #e14c86;
+}
+
+#logo:hover{
+	text-shadow: 0 0 30px red,0 0 20px red,0 0 30px red,0 0 40px #e14c86;
+	text-decoration: none;
+}
+
+
+.link-header{
+	margin: 15px;
+}
+
+.link-autoh{
+	margin: 10px;
+}
+
+.link-autoh:hover{
+	margin: 10px;
+	color: #ffd500;
+	text-decoration: none;
+}
+
+.autoh-block{
+	position: absolute;
+	display: flex;
+	right: 0;
+}
+
